@@ -1,27 +1,62 @@
-# Netflix-Dashboard-Excel
-This is a complete Excel dashboard project analyzing Netflix movie data.
+#  Netflix-Dashboard-Excel
 
-##  Tools Used
-- Microsoft Excel
-- Power Query
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- KPI Cards
+This is a complete Excel dashboard project analyzing Netflix Movies and TV Shows using Microsoft Excel.
 
-##  Key Features
-- Analyzed age certification, runtime, votes, and release years.
-- Created dynamic visual filters with slicers.
-- Grouped data by decade and runtime categories.
-- Included a summary sheet for project insights.
+The dataset was cleaned, transformed, and visualized to uncover key content insights.
+
+## Tools Used
+
+- Microsoft Excel  
+- Power Query  
+- Pivot Tables  
+- Pivot Charts  
+- Slicers  
+- KPI Cards  
+
+##  Key Insights & Analysis
+
+- Cleaned and structured the dataset using Power Query
+- Removed unnecessary columns like `Index` and `Description`
+- Renamed headers and filled missing runtime values
+- Categorized `Runtime` into “More than Hour” vs “Within an Hour”
+- Grouped `Age Certification` into age-based categories
+- Created custom columns like:
+  - `Rating Performance` (Excellent, Average, Poor)
+  - `IMDB Votes %`
+  - `Release Decade`
+- Created Pivot Tables for age group analysis, top 5 most voted titles, and decade-wise trends
+- Designed KPI cards for Total Titles, Votes, Highest Rating, Top Title, and Most Recent Year
+- Built interactive slicers for Decade and Runtime
+- Finalized a visually engaging dashboard layout
+
+##  Dashboard Preview
+
+![Netflix Dashboard Preview] C:\Users\tatin\OneDrive\Pictures\Netflix Dashboard Preview.png
+
 
 ##  Files Included
-- `Netflix_Dashboard.xlsx` – Working dashboard file
-- `Netflix_Dashboard.pdf` – Printable/preview version
-- `dashboard_preview.png` – Dashboard image
 
-##  Summary
-This project helped me apply data cleaning, transformation, and storytelling skills using Excel. It's part of my journey restarting a data analytics career post-break.
+- `Netflix_Dashboard_Excel.xlsx` – The Excel workbook with all cleaning, analysis, and dashboard
+- `Netflix_Dashboard_Excel.pdf` – PDF version for portfolio sharing
+- `Project Summary` tab – Documented steps, transformations, and logic used
 
-##  Let's Connect
-If you like this project or want to collaborate, feel free to reach out on [LinkedIn](https://www.linkedin.com/in/hari-chandana-tatini/)or leave a star ⭐
+
+##  How to Use
+
+1. Download the `.xlsx` file from this repository
+2. Open the file in Microsoft Excel (recommended: 2016 or later)
+3. Go to the `Dashboard` tab
+4. Use the slicers to explore decade-wise and runtime-based insights
+
+
+##  Connect With Me
+
+I'm actively looking for Data Analytics internship/freelance opportunities (remote or Hyderabad-based).  
+Please feel free to connect!
+
+➡ [LinkedIn Profile](https://www.linkedin.com/in/hari-chandana-tatini/)
+
+
+
+
+
